@@ -134,6 +134,7 @@
 		DB77569120C786EA0059FB2C /* emotion_81.png in Resources */ = {isa = PBXBuildFile; fileRef = DB77563F20C786E80059FB2C /* emotion_81.png */; };
 		DB77569720C786EA0059FB2C /* emotion_47.png in Resources */ = {isa = PBXBuildFile; fileRef = DB77564520C786E90059FB2C /* emotion_47.png */; };
 		DB77569820C786EA0059FB2C /* emotion_75.png in Resources */ = {isa = PBXBuildFile; fileRef = DB77564620C786EA0059FB2C /* emotion_75.png */; };
+		DBB690F320C7D37F001D1600 /* TextUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB690F220C7D37F001D1600 /* TextUpdate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,6 +325,8 @@
 		DB77563F20C786E80059FB2C /* emotion_81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotion_81.png; sourceTree = "<group>"; };
 		DB77564520C786E90059FB2C /* emotion_47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotion_47.png; sourceTree = "<group>"; };
 		DB77564620C786EA0059FB2C /* emotion_75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emotion_75.png; sourceTree = "<group>"; };
+		DBB690F120C7D37F001D1600 /* TextUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextUpdate.h; sourceTree = "<group>"; };
+		DBB690F220C7D37F001D1600 /* TextUpdate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextUpdate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -611,6 +614,8 @@
 				DB77552B20C778DF0059FB2C /* Emotion */,
 				DB77550320C778C10059FB2C /* YYImage */,
 				DB7754CD20C778C00059FB2C /* YYText */,
+				DBB690F120C7D37F001D1600 /* TextUpdate.h */,
+				DBB690F220C7D37F001D1600 /* TextUpdate.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -835,6 +840,7 @@
 				DB7754A020C778A30059FB2C /* ViewController.m in Sources */,
 				DB77552420C778C10059FB2C /* YYTextAsyncLayer.m in Sources */,
 				DB77551820C778C10059FB2C /* YYTextDebugOption.m in Sources */,
+				DBB690F320C7D37F001D1600 /* TextUpdate.m in Sources */,
 				DB77552A20C778C10059FB2C /* YYAnimatedImageView.m in Sources */,
 				DB77552020C778C10059FB2C /* NSAttributedString+YYText.m in Sources */,
 				DB77552220C778C10059FB2C /* YYTextTransaction.m in Sources */,
